@@ -1,0 +1,128 @@
+@media screen and (min-width:1401px) {
+    .container{
+        width: 1320px;
+    }
+}
+@media screen and (max-width:1400px){
+    .container{
+        width: 1140px;
+    }
+}
+@media screen and (max-width:1200px){
+    .container{
+        width: 960px;
+    }
+    #footer .container {
+        flex-wrap: wrap;
+    }
+    #footer .footer-column-2{
+        order: 1;
+    }
+    #footer .footer-column-1 ,#footer .footer-column-3{
+        width: 49%;
+     }
+     #home .nav-bar .nav-menu{
+        display: none;
+     }
+     #home .nav-bar .menu-tog{
+        display: block;
+     }
+     #home .nav-bar .nav-btn{
+        display: flex;
+        gap:15px;
+        align-items: center;
+     }
+     #gallery .container{
+        height: 866px;
+     }
+}
+@media screen and (max-width:992px){
+    .container{
+        width: 720px;
+    }
+    #home .hero .container{
+        flex-wrap: wrap;
+        height: auto;
+        padding-top: 100px;
+        justify-content: center;
+    }
+    #home .hero .hero-img , #home .hero .caption{
+        width: 80%;
+    }
+    #home .hero .caption{
+        order: 1;
+        text-align: center;
+    }
+    #home .hero .btn-group {
+        justify-content: center;
+    }
+    #chefs .container {
+        flex-wrap: wrap;
+    }
+    #chefs .chef {
+        width: calc(50% - 15px);
+    }
+    #gallery .container{
+        height: 1423px;
+    }
+    #gallery .dishes{
+        width: calc(50% - 5px);
+    }
+    #gallery .item-1{
+        order: 1;
+    }
+    #gallery .item-2{
+        order: 3;
+    }
+    #gallery .item-3{
+        order: 5;
+    }
+    #gallery .item-4{
+        order: 4;
+    }
+    #gallery .item-5{
+        order: 6;
+    }
+    #gallery .item-6{
+        order: 7;
+    }
+    #gallery .item-7{
+        order: 2;
+    }
+    #contact form .name-email{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .container{
+        width: 540px;
+    }
+    #chefs .chef {
+        width: 100%;
+    }
+    #gallery .container{
+        height: auto;
+        flex-wrap: nowrap;
+    }
+    #gallery .dishes{
+        width: 100%;
+    }
+    #contact .contact-info .info-item{
+        width: 100%;
+    }
+    #footer .footer-column-1 ,#footer .footer-column-3{
+        width: 100%;
+    }
+    #footer .footer-column-3{
+        order: 2;
+    }
+}
+@media screen and (max-width:575px){
+    .container{
+        width: 100% ;
+    }
+    #home .hero .btn-group{
+        flex-wrap: wrap;
+    }
+}
