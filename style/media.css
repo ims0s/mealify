@@ -19,7 +19,7 @@
         order: 1;
     }
     #footer .footer-column-1 ,#footer .footer-column-3{
-        width: 49%;
+        width: calc(50% - 8px);
      }
      #home .nav-bar .nav-menu{
         display: none;
